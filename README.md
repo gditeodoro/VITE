@@ -40,7 +40,7 @@ The output visualizations can be found in folder *figure/*.
 
 ## Examples
 
-These are examples of the visualizations obtained in the case of the Cleveland database when training a Random Forest (RF) with maximum depth 4, 100 estimators and giving the RF the possibility to choose among all the possible features when looking for the best split at each node.
+These are examples of the visualizations obtained in the case of the Cleveland database when training a Random Forest (RF) with maximum depth 3, 100 estimators and giving the RF the possibility to choose among all the possible features when looking for the best split at each node.
 
 <p align="center">
   <img width="540" src="https://github.com/gditeodoro/VITE/blob/main/figure/heat_map.png"/>
