@@ -141,7 +141,7 @@ class VisualizationRF:
             plt.show()
 
         #fig.savefig(path+"heat_map.png")
-        fig.savefig(os.path.join(os.getcwd(),directory,"heat_map.png"))
+        fig.savefig(os.path.join(os.getcwd(),directory,"heat_map.png"),bbox_inches="tight")
         plt.close()
 
 
@@ -237,7 +237,7 @@ class VisualizationRF:
         for name in node_name:
             num_node = int(name.split('_')[1])
             # HEATMAP
-            fig, ax = plt.subplots(figsize=(len(df_nodes_perc.index)/4,len(df_nodes_perc.index)/3.5))#,len(df_nodes_perc.index)*2 ))
+            fig, ax = plt.subplots(figsize=(len(df_nodes_perc.index)*.5,len(df_nodes_perc.index)*.3))
             fig.set_tight_layout(True)
             # Add title to the Heat map
             title = "_%"
@@ -268,7 +268,7 @@ class VisualizationRF:
             sns.heatmap(df_torep, annot=np.array(df_torep.values * 100, dtype='int'), fmt="", cmap=map, linewidths=0.30,
                         ax=ax)
 
-            fig.savefig(os.path.join(os.getcwd(),directory,"heatmap_"+name+".png"))
+            fig.savefig(os.path.join(os.getcwd(),directory,"heatmap_"+name+".png"),bbox_inches="tight")
             plt.close(fig)
 
 
