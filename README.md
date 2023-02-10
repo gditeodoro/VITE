@@ -49,6 +49,7 @@ These are examples of the visualizations obtained in the case of the Cleveland d
 <p align="center">
   <img width="1040" src="https://github.com/gditeodoro/VITE/blob/main/figure/tree_heatmap.png"/>
 </p>
+
 ## Team
 
 Contributors to this code:
@@ -61,4 +62,4 @@ Contributors to this code:
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 * [MIT License](https://opensource.org/licenses/mit-license.php)
-* Copyright 2022 © Marta Monaci, Giulia Di Teodoro
+* Copyright 2022 © Giulia Di Teodoro, Marta Monaci
