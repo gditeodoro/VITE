@@ -3,7 +3,7 @@ from utils import *
 
 if __name__=="__main__":
 
-    max_depth = 4
+    max_depth = 3
     test_size=0.2
     max_features=None
     n_estimators=100
