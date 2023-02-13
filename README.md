@@ -1,8 +1,8 @@
 # VITE
 a hierarchical VIsualization tool for Tree Ensemble.
 
-This repository contains the source code and the data related to the paper Visualizing Tree Ensembles: from a black forest to a
-white optimal tree by Giulia Di Teodoro, Marta Monaci and Laura Palagi, only for the visualization tool for tree ensemble. 
+This repository contains the source code and the data related to the paper "Representing Tree Ensembles: from a black forest to a
+white optimal tree" by Giulia Di Teodoro, Marta Monaci and Laura Palagi, only for the visualization tool for tree ensemble. 
 In particular, it contains the code for displaying the VITE plot in case you want to visualize a Random Forest.
 
 
